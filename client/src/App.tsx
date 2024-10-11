@@ -8,7 +8,6 @@ function App() {
       <AppLayout />
       <div className="mt-16">
         <AllRoutes />
-
       </div>
       <Footer />
     </div>

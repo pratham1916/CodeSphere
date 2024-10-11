@@ -45,7 +45,7 @@ const Footer = () => {
                             />
                         </Link>
                         <p className="text-base font-medium text-gray-600 max-w-[35ch]">
-                            codeSphere is your go-to platform for practicing coding problems, enhancing your skills, and preparing for technical interviews. Our intuitive interface and comprehensive problem sets are designed to challenge and grow developers of all levels.
+                            CodeSphere is your go-to platform for practicing coding problems, enhancing your skills, and preparing for technical interviews. Our intuitive interface and comprehensive problem sets are designed to challenge and grow developers of all levels.
                         </p>
                         <div className="hidden flex-col gap-2">
                             <Link to="'/"
