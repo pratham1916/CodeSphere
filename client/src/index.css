@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.compileButton,
+.tabButton {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #19212c;
+  cursor: pointer;
+  border: 2px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  border-radius: 5px;
+  transition: 0.1s;
+  /* background-color: white; */
+}
+
+.compileButton:hover,
+.tabButton:hover {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+/* .compileButton:active,
+.tabButton:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+} */
+
+@media (min-width: 768px) {
+  .compileButton,
+  .tabButton {
+    padding: 0.25em 0.75em;
+  }
+}
+.contest {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.solved {
+  background-color: green;
+}
+.notSolved {
+  background-color: red;
+}
+.Easy {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.HTMLEditors {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+.Medium {
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.Hard {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.points,
+.qstcarddiv {
+  margin-left: 5px;
+}
+.qstcard {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}
