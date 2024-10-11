@@ -42,11 +42,11 @@ const AppLayout = () => {
         </nav>
 
         <div className="lg:hidden flex items-center gap-2">
-        <Button icon={<MenuOutlined />} onClick={showDrawer} /> 
+          <Button icon={<MenuOutlined />} onClick={showDrawer} />
           <Button className="bg-orange-600 text-white font-bold" icon={<UserAddOutlined />} style={{ marginRight: '8px' }}>
             Sign Up
           </Button>
-          
+
         </div>
 
         <Button className="hidden lg:inline-block bg-orange-600 text-white font-bold" icon={<UserAddOutlined />}>
@@ -66,7 +66,7 @@ const AppLayout = () => {
               type="text"
               icon={<CloseOutlined />}
               onClick={closeDrawer}
-              style={{ border: 'none', fontSize: '24px', color: '#ff4d4f' }} 
+              style={{ border: 'none', fontSize: '24px', color: '#ff4d4f' }}
             />
           </div>
           <nav className="flex flex-col space-y-4 text-center">
