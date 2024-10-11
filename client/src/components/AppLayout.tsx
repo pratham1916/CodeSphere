@@ -41,12 +41,8 @@ const AppLayout = () => {
           </Link>
         </nav>
 
-        <div className="lg:hidden flex items-center gap-2">
+        <div className="lg:hidden flex items-center">
           <Button icon={<MenuOutlined />} onClick={showDrawer} />
-          <Button className="bg-orange-600 text-white font-bold" icon={<UserAddOutlined />} style={{ marginRight: '8px' }}>
-            Sign Up
-          </Button>
-
         </div>
 
         <Button className="hidden lg:inline-block bg-orange-600 text-white font-bold" icon={<UserAddOutlined />}>
@@ -79,6 +75,9 @@ const AppLayout = () => {
             <Link to="/contact" onClick={closeDrawer} className={`text-gray-600 hover:text-gray-900 ${location.pathname === "/contact" ? "text-orange-600 font-bold" : ""}`}>
               Contact
             </Link>
+            <Button className="bg-orange-600 text-white font-bold w-full" icon={<UserAddOutlined />} onClick={closeDrawer}>
+              Sign Up
+            </Button>
           </nav>
         </Drawer>
       </Header>
